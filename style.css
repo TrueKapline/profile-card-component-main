@@ -10,7 +10,7 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-h1, h2, p, img, hr {
+* {
     margin: 0   ;
 }
 
@@ -120,9 +120,10 @@ h2 {
 }
 
 .attribution {
-    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 15px;
     text-align: center;
-    margin-top: 15px;
     color: var(--very-dark-desaturated-blue);
 }
 
